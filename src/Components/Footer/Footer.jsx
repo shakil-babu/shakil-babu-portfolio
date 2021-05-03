@@ -8,8 +8,10 @@ const Footer = () => {
     useEffect(() => {
         getYear();
     }, [])
+
     return (
         <>
+        
             <footer className="footer-area">
                 <div className="social-icons">
                     <a href="https://www.facebook.com/profile.php?id=100025305922873" target='_blank'><FaFacebook className='icon1'/></a>

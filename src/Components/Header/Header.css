@@ -11,24 +11,24 @@
     width: 50%;
     z-index: -100;
 }
-.header-info{
+.hinfo{
     width: 50%;
     font-family: 'Montserrat',sans-serif;
 }
-.header-info h6{
+.hinfo h6{
     text-transform: uppercase;
     color: #fff;
     letter-spacing: 4px;
     margin-bottom: 20px;
 }
-.header-info h1{
+.hinfo h1{
     text-transform: uppercase;
     font-size: 50px;
     color: #fff;
     font-weight: 900;
 
 }
-.header-info h2{
+.hinfo h2{
     text-transform: uppercase;
     color: #fffffff2;
     margin-top: 15px;
@@ -82,7 +82,7 @@
     float: right;
 }
 
-.header-info p{
+.hinfo p{
     font-size: 15px;
     color: #fff;
     margin-top: 10px;
@@ -102,48 +102,54 @@
            justify-content: center;
         }
         .side-bg{
-            width: 100%;
-            height: 100vh;
+            display: none;
             
         }
-        .header-area{
-            height: 100%;
-            height: 100vh;
+ 
+        .header-img{
+            width: 100%;
+            display: none;
+        }
+        .hinfo{
+          width: 100%;
+            margin: 100px 0;
 
         }
-        .header-info{
-            width: 100%;
-            padding: 100px 0;
+        .hinfo h6{
+            padding-top: 100px;
+            color: #fff;
         }
-        .header-info h6{
-            padding-top: 150px;
+  
+        .header-area{
+            background-color: #682de9;
         }
         .header-img{
             display: none;
         }
 }
 @media screen and (max-width:768px){
-        .header-info h1{
+        .hinfo h1{
             font-size: 30px;
         }
-        .header-flex{
-            height: 40vh;
-        }
-        .header-info h2{
+        .hinfo h2{
             font-size: 20px;
         }
         .btn-flex{
             padding-bottom: 20px;
         }
+        .hinfo h6{
+            /* padding-top: 200px; */
+            color: #fff;
+        }
 }
 @media screen and (max-width:576px){
-    .header-info h1{
+    .hinfo h1{
         font-size: 20px;
     }
-    .header-info h2{
+    .hinfo h2{
         font-size: 15px;
     }
-    .header-info p{
+    .hinfo p{
         font-size: 10px;
     }
     .btn-flex{
