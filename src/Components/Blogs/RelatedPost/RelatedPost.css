@@ -1,0 +1,25 @@
+
+
+.realted{
+    margin-top: 30px;
+}
+.recent-area-post{
+    background-color: #682de9;
+    padding: 15px;
+    margin-bottom: 20px;
+    
+}
+.recent-area-post h6{
+    color: #fff;
+    font-size: 15px;
+}
+
+.flex-recent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.flex-recent h5{
+    color: #999;
+}

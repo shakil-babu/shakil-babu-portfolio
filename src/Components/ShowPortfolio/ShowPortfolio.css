@@ -1,0 +1,38 @@
+
+
+.show-portfolio-area{
+    padding: 80px 0;
+}
+
+.show-project-grid-layout{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding-top: 50px;
+}
+
+.gotoportfolio button{
+    text-decoration: none;
+    margin-top: 80px;
+    border: none;
+    outline:none;
+    background-color: #682de9;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+@media  screen and (max-width:992px) {
+    .show-project-grid-layout{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media  screen and (max-width:768px) {
+    .show-project-grid-layout{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+

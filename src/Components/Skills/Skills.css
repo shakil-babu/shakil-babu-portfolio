@@ -1,0 +1,118 @@
+.skills-area{
+    background-color:#f7f7f7;
+    padding: 80px 0;
+}
+.layout-skills{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 40px 0;
+}
+
+.icon-wrapper{
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .9s;
+}
+.icon-item{
+    font-size: 50px;
+    color: #682de9;
+    cursor: pointer;
+}
+
+.html:hover{
+    background-color: #f06529;
+}
+.css:hover{
+    background-color: #2965f1 ;
+}
+.bootstrap:hover{
+    background-color: #563d7c ;
+}
+.materialize:hover{
+    background-color: #eb7077;
+}
+.javascript:hover{
+    background-color: #f0db4f ;
+}
+.react:hover{
+    background-color: #61DBFB;
+}
+.router:hover{
+    background-color: #ca4245;
+}
+.mui:hover{
+    background-color: #0081cb;
+}
+.redux:hover{
+    background-color: #764abc;
+}
+.gatsby:hover{
+    background-color: #663399;
+}
+.typescript:hover{
+    background-color: #e4d156;
+}
+.nodejs:hover{
+    background-color: #73aa63;
+}
+.mongodb:hover{
+    background-color: #429543;
+}
+.firebase:hover{
+    background-color: #ffcb2c;
+}
+.heroku:hover{
+    background-color: #400099;
+}
+
+
+
+
+/* hover for all of technologies */
+.tech-h, .tech-c, .tech-b, .tech-m, .tech-j, .r, .rr, .m, .rd, .g, .t, .n, .m, .f, .h{
+    display: none;
+}
+.html:hover .icon-item, .css:hover .icon-item, .bootstrap:hover .icon-item, .materialize:hover .icon-item, .javascript:hover .icon-item{
+    display: none;
+}
+.react:hover .icon-item , .router:hover .icon-item, .mui:hover .icon-item, .redux:hover .icon-item,  .gatsby:hover .icon-item , .typescript:hover .icon-item , .nodejs:hover .icon-item , .mongodb:hover .icon-item, .firebase:hover .icon-item, .heroku:hover .icon-item{
+    display: none;
+}
+.html:hover .tech-h, .css:hover .tech-c, .bootstrap:hover .tech-b, .materialize:hover .tech-m, .javascript:hover .tech-j{
+    display: block;
+    color: #fff;
+}
+
+
+.react:hover .r, .mui:hover .m ,  .router:hover .rr, .redux:hover .rd, .gatsby:hover .g, .typescript:hover .t, .nodejs:hover .n, .mongodb:hover .m, .firebase:hover .f, .heroku:hover .h{
+    display: block;
+    color: #fff;
+}
+
+
+
+@media screen and (max-width:992px){
+    .layout-skills{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+@media screen and (max-width:768px){
+    .layout-skills{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width:576px){
+    .tech-h, .tech-c, .tech-b, .tech-m, .tech-j, .r, .rr, .m, .rd, .g, .t, .n, .m, .f, .h{
+        font-size: 12px;
+    }
+}

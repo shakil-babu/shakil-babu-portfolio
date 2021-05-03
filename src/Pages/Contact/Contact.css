@@ -1,0 +1,84 @@
+
+.contact-main-area{
+    background: #f7f7f7;
+}
+.padding{
+    padding: 60px 0;
+}
+
+.location-area{
+    background-color: #682de9;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.location-area h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 35px;
+    letter-spacing: 3.2px;
+}
+
+.form-area{
+    /* width: 70%; */
+    margin: 20px auto;
+}
+
+.form-area input, textarea{
+    border-left: none;
+    border-right: none;
+    border-top:none;
+    padding: 10px 0;
+    width: 100%;
+    background: transparent;
+    outline: none;
+    border-bottom: 2px solid #eeeeee;
+    margin-bottom: 10px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 16px;
+}
+.form-area fieldset{
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28)
+}
+.form-area fieldset legend{
+    background-color: #682de9;
+    padding: 8px;
+    color: #fff;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.form-area button{
+    width: 100%;
+    padding: 10px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #682de9;
+    border: none;
+    outline: none;
+    margin: 8px 0 ;
+    cursor: pointer;
+}
+
+.success-message{
+    text-transform: uppercase;
+    color: green;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin: 8px 0;
+}
+
+.success-message .i{
+    margin-right: 8px;
+    font-size: 22px;
+}
+@media screen and (max-width:576px) {
+    .location-area h1{
+        font-size: 20px;
+    }
+}

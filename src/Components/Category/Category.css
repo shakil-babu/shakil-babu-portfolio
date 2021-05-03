@@ -1,0 +1,36 @@
+
+.categroy-area{
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    font-family: 'Varela Round', sans-serif;
+    height: 100px;
+}
+
+.categroy-area img{
+    width: 50px;
+}
+.categroy-area h4{
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.category-link{
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width:576px){
+
+    .categroy-area img{
+        width: 30px;
+    }
+    .categroy-area h4{
+        font-size: 20px;
+    }
+}

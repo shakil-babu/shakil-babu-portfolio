@@ -1,0 +1,80 @@
+
+.single-js-post{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    height: 350px
+}
+.title-box{
+    background-color: #682de9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.card-info{
+    margin-left: 20px;
+}
+.card-info h1{
+    font-size: 20px;
+    letter-spacing: 3px;
+    padding: 10px 0;
+}
+.card-info h6{
+    background-color: #682de986;
+    padding: 10px;
+    border-radius: 25px;
+    width: 100px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.card-info p{
+    color: gray;
+    margin-top: 15px;
+}
+.flex-recent{
+    display: flex;
+    justify-content: space-between;
+}
+.continue-reading button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #682de9;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+
+}
+.continue-reading{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+.continue-reading .arrow{
+    margin-left: 6px;
+    margin-top: 5px;
+}
+
+
+@media screen and (max-width:576px){
+    .single-js-post{
+        flex-direction: column;
+    }
+    .title-box{
+        padding: 20px;
+    }
+
+    .single-js-post{
+        padding: 10px;
+        height: 400px;
+    }
+}

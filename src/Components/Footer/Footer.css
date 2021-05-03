@@ -1,0 +1,45 @@
+
+
+.footer-area{
+    padding: 60px;
+    text-align: center;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-icons a{
+    text-decoration: none;
+    color: #3f3d56;
+}
+.social-icons a .icon1, .icon2, .icon3, .icon4{
+    font-size: 35px;
+    margin-right: 10px;
+}
+.icon1:hover{
+    color: #4267B2;
+}
+
+.icon2:hover{
+    color: #E1306C;
+}
+
+.icon3:hover{
+    color:#6e5494
+}
+.icon4:hover{
+    color: #0e76a8;
+}
+.footer-area p{
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 5px;
+}
+
+
+
+.icon1:hover, .icon2:hover , .icon3:hover , .icon4:hover {
+    
+}
+

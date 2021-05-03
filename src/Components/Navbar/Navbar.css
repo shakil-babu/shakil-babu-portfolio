@@ -1,0 +1,135 @@
+
+.nav-area{
+    padding: 30px  0;
+    font-family: 'Varela Round', sans-serif;
+    letter-spacing:3px;
+}
+.nav-bg{
+    background: #fff;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.nav-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item-wrapper{
+    color: #3f3d56;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-logo-area{
+    display: flex;
+    align-items: center;
+}
+.nav-logo-area h4{
+    margin: 0 5px;
+    font-size: 18px;
+}
+.light h4{
+    color: #fff;
+}
+.black .underline{
+    height: 3px;
+    width: 30px;
+    background-color: #3f3d56;
+}
+
+
+.light .underline{
+    height: 3px;
+    width: 30px;
+    background-color: #fff;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+.nav-link{
+    text-decoration: none;
+    color: #3f3d56;
+    margin: 0 12px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.bar-area{
+    display: none;
+}
+
+.bar-area .bar{
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.bar-area .light-bar{
+    color: #fff;
+    cursor: pointer;
+    font-size: 25px;
+}
+.mobile-nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    margin-top: 15px;
+    background-color: #3f3d56;
+    color: #fff;
+    flex-direction: column;
+}
+.mobile-nav .nav-link{
+    color: #fff;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+@media screen and (max-width:992px){
+    .bar-area{
+        display: block;
+    }
+    .nav-items{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:576px){
+    .nav-logo-area h4{
+        font-size: 12px;
+    }
+    .underline{
+        width: 20px;
+    }
+    .mobile-nav .nav-link{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:270px){
+    .nav-logo-area h4{
+        font-size: 10px;
+    }
+    .underline{
+        width: 10px;
+    }
+    .bar-area .bar{
+        font-size: 17px;
+    }
+    .mobile-nav .nav-link{
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width:992px){
+    .mobile-nav{
+        display: none;
+    }
+}

@@ -1,0 +1,53 @@
+
+.back-btn{
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.portfolio-details-area{
+    padding: 40px 0;
+    background-color: #eeeeee;
+    margin-top: 3px;
+}
+
+.location-area h3{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 900;
+}
+
+.bg-shadow{
+    background-color: #fff;
+
+}
+
+.details-info{
+    padding: 25px;
+}
+
+.btn-dowenload{
+    padding: 14px;
+    border: none;
+    outline-style: none;
+    background-color: #682de9;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: center;
+}
+
+.btn-dowenload .icon{
+    margin-right: 8px;
+}
+
+
+
+@media  screen and (max-width:400px) {
+    .btn-dowenload{
+        width: 100%;
+    }
+}
