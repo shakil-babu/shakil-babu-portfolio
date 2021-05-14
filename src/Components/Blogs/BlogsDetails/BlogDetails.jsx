@@ -6,6 +6,7 @@ import { useHistory, useParams } from 'react-router';
 import './BlogDetails.css';
 import AboutIntro from '../AboutIntro/AboutIntro';
 import RelatedPost from '../RelatedPost/RelatedPost';
+import Markdown from 'react-remarkable';
 import Navbar from '../../Navbar/Navbar';
 const BlogDetails = () => {
     let { id } = useParams();
@@ -36,37 +37,12 @@ const BlogDetails = () => {
                 <h6>{FindPost.id}</h6>
                 <div className="underline"></div>
                 </div>
-                    <p>{FindPost.p1}</p>
-                    <p>{FindPost.p2}</p>
+                    
+                    <Markdown source = {FindPost.desc} />
 
-                    <h3>{FindPost.example}:</h3>
-                    <p>1.{FindPost.p3}</p>
-                    <SyntaxHighlighter language="javascript" style={dracula}>
+                    {/* <SyntaxHighlighter language="javascript" style={dracula}>
                             {FindPost.c1}
-                    </SyntaxHighlighter>
-
-
-
-                    {FindPost.code2 && (
-                        <div className="">
-                            <p>{FindPost.p4}</p>
-                            <SyntaxHighlighter language="javascript" style={dracula}>
-                                 {FindPost.c2}
-                            </SyntaxHighlighter>
-                        </div>
-                    )}
-
-                    {FindPost.code3 && (
-                        <div className="">
-                            <p>{FindPost.other}</p>
-                            <SyntaxHighlighter language="javascript" style={dracula}>
-                                 {FindPost.c3}
-                            </SyntaxHighlighter>
-                        </div>
-                    )}
-
-                    <p>{FindPost.p5}</p>
-
+                    </SyntaxHighlighter> */}
 
                     <div className="d-flex-me" style={{marginTop:'40px'}}>
                     <div className="under-line"></div>

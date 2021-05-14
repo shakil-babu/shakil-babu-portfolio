@@ -48,8 +48,8 @@ const Header = () => {
                     <div className="header-flex">
                         <div className="hinfo">
                             <h6>Welcome to my World</h6>
-                            <h1>Hello I’m <br/> Shakil Babu</h1>
-                            <p>A MERN Stack developer(Jr.) who have  more  than 2 years of learning experience  building  and  testing applications for Web using JavaScript, node.js, express.js, mongodb, react.js and gatsbyjs.</p>
+                            <h1>Hello I’m <br/> <span className="glitch" data-text="Shakil Babu">Shakil Babu</span></h1>
+                            <p>I am a JavaScript developer with industry experience building websites and web applications. I specialize in JavaScript and have professional experience working with React.js, Node.js, Express.js, and mongoDB. I always focus on learning new technology. </p>
                             <div className="btn-flex">
                                 
                             <a href={resume} download="resume" className='width'>

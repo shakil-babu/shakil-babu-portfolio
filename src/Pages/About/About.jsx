@@ -18,7 +18,7 @@ const About = () => {
                         <div className="info-area">
                             <h4>I'm</h4>
                             <h1>Shakil Babu</h1>
-                            <p>MERN Stack developer(Jr.) who have more than 2 years of learning experience building and testing applications for Web using JavaScript, node.js, express.js, mongodb, react.js and gatsbyjs.</p>
+                            <p>I am a JavaScript developer with industry experience building websites and web applications. I specialize in JavaScript and have professional experience working with React.js, Node.js, Express.js, and mongoDB. I always focus on learning new technology. </p>
                             <a href={resume} download="resume" className='width'>
                             <button className="btn btn-bg"> <BsDownload/> Dowenload Resume</button>
                             </a>

@@ -14,13 +14,13 @@ const Footer = () => {
         
             <footer className="footer-area">
                 <div className="social-icons">
-                    <a href="https://www.facebook.com/profile.php?id=100025305922873" target='_blank'><FaFacebook className='icon1'/></a>
-                    <a href="https://www.instagram.com/shakilbabupro/" target='_blank'><FaInstagram className='icon2'/></a>
-                    <a href="https://github.com/shakil-Babu/" target='_blank'><FaGithub className='icon3'/></a>
-                    <a href="https://www.linkedin.com/in/shakil-babu-b1a144211/" target='_blank'><FaLinkedin className='icon4'/></a>
+                    <a href="https://www.facebook.com/profile.php?id=100025305922873" target='_blank' rel="noreferrer"><FaFacebook className='icon1'/></a>
+                    <a href="https://www.instagram.com/shakilbabupro/" target='_blank' rel="noreferrer"><FaInstagram className='icon2'/></a>
+                    <a href="https://github.com/shakil-babu/" target='_blank' rel="noreferrer"><FaGithub className='icon3'/></a>
+                    <a href="https://www.linkedin.com/in/shakil-babu-b1a144211/" target='_blank' rel="noreferrer"><FaLinkedin className='icon4'/></a>
                 </div>
                 <p>Copyright © {date} - Shakil Babu</p>
-            </footer>   
+            </footer>
         </>
     )
 }

@@ -19,7 +19,14 @@
     margin-top: 35px;
 }
 
-
+.more-btn-area{
+    padding: 60px 0;
+}
+.btn-more{
+    background-color: #682de9 !important;
+    float:right;
+    text-decoration: none;
+}
 @media screen and (max-width:992px){
     .categories-layout{
         grid-template-columns: repeat(2, 1fr);

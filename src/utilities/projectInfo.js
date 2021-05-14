@@ -12,7 +12,15 @@ export const htmlCssProjectInfo = [
         sourceCode:'https://github.com/Shakil-Babu/seohunter-template',
         live:'https://shakil-babu.github.io/seohunter-template/',
         category:['HTML', "CSS", "RESPONSIVE"],
-        type:"SEO SERVICE"
+        type:"SEO SERVICE",
+        desc:[
+            "It's a responsive website which serves SEO services",
+            "Modern and fresh design",
+            "All of part are responsive using pure CSS"
+        ],
+        tech:[
+            'html','css'
+        ]
     },
     {
         id:'manage',
@@ -21,7 +29,15 @@ export const htmlCssProjectInfo = [
         sourceCode:'https://github.com/Shakil-Babu/manage-template',
         live:'https://shakil-babu.github.io/manage-template/',
         category:['HTML', "CSS", "RESPONSIVE"],
-        type:'SOFTWARE TEMAS'
+        type:'SOFTWARE TEMAS',
+        desc:[
+            "It's a manage website which provides softwares",
+            "Whole website are responsive - mobile, tab, pc, laptop friendly",
+            "Modern design with grid and flexbox layout",
+            "All of part are fresh design",
+            "There are no functionality without design"
+        ],
+        tech:['html','css']
     },
     {
         id:'easybank',
@@ -30,7 +46,14 @@ export const htmlCssProjectInfo = [
         sourceCode:'https://github.com/Shakil-Babu/easybank-template',
         live:'https://shakil-babu.github.io/easybank-template/',
         category:['HTML', "CSS", "RESPONSIVE"],
-        type:'BANK SERVICE'
+        type:'BANK SERVICE',
+        desc:[
+            "Easybank it's a bank service website ",
+            "Modern and responsive design",
+            "This is a only ui design no functionality."
+        ],
+        tech:['html','css']
+
     },
     {
         id:'htmlPortfolio',
@@ -39,7 +62,15 @@ export const htmlCssProjectInfo = [
         sourceCode:'https://github.com/Shakil-Babu/personal-website',
         live:'https://shakil-babu.github.io/personal-website',
         category:['HTML', "CSS", "RESPONSIVE"],
-        type:'PORTFOLIO'
+        type:'PORTFOLIO',
+        desc:[
+            "This is a portfolio website for web-developer",
+            "Modern and fresh desgin",
+            "Whole website are responsive - Phone, Laptop, Tab, PC and etc. friendly",
+            "Only ui design",
+            "Easy Customizable",
+        ],
+        tech:['html','css']
     },
     {
         id:'brohost',
@@ -48,7 +79,15 @@ export const htmlCssProjectInfo = [
         sourceCode:'https://github.com/Shakil-Babu/broHost-template',
         live:'https://shakil-babu.github.io/broHost-template/',
         category:['HTML', "CSS", "RESPONSIVE"],
-        type:"HOSTING SERVICE"
+        type:"HOSTING SERVICE",
+        desc:[
+            "IT's a wordpress website hosting service realted website",
+            "Easy to manage",
+            "All of part are responsive also phone, tablet, pc, latop and etc. friendly",
+            "Cool design",
+            "Modern technology"
+        ],
+        tech:['html','css']
     }
 ]
 
@@ -265,7 +304,15 @@ export const reactBasicMedium = [
         sourceCode:'https://github.com/Shakil-Babu/about-country',
         live:'https://details-countries.netlify.app/',
         category:["React", "React Router"],
-        type:'Routing'
+        type:'Routing',
+        desc:[
+            "Country details it's a responsive web app where anyone can see specific countr details",
+            "In home page, there are short description of country",
+            "Anyone can easily know details about specific country after click which implemented by react-router",
+            "In details page, anyone can see all details about a count.",
+            "Also there are dark/light mode components"
+        ],
+        tech:['html','css','react','react-router']
     },
     {
         id:'takeQuiz',
@@ -274,7 +321,14 @@ export const reactBasicMedium = [
         sourceCode:'https://github.com/Shakil-Babu/quiz-app-react',
         live:'https://take-quiz.netlify.app/',
         category:["React", "Hooks"],
-        type:'Quiz'
+        type:'Quiz',
+        desc:[
+            "Simple quiz app created using react.js. Where anyone can try solve those question",
+            "All of questions are fetched from an api. and randomly it's shows only 10 questions",
+            "If someone get more than 39 then she/he passed in the exam or fail.",
+            "Also there are score component where someone can see their score."
+        ],
+        tech:['html','css','react','hooks']
     },
     {
         id:'teamExplorer',
@@ -283,7 +337,14 @@ export const reactBasicMedium = [
         sourceCode:'https://github.com/Shakil-Babu/team-explorer-react',
         live:'https://team-explorer.netlify.app/',
         category:["React", "Router", "Hooks"],
-        type:'Routing'
+        type:'Routing',
+        desc:[
+            "Team explorer it's a responsive web app where anyone can see specific team details",
+            "In home page, there are short description of team",
+            "Anyone can easily know details about specific team after click which implemented by react-router",
+            "In details page, anyone can see all details about a team."
+        ],
+        tech:['html','css','react','react-router']
     },
     {
         id:'teamBuildup',
@@ -292,7 +353,15 @@ export const reactBasicMedium = [
         sourceCode:'https://github.com/Shakil-Babu/team-maker-react',
         live:'https://simle-react.netlify.app/',
         category:["React", "Router","Hooks"],
-        type:'Hooks'
+        type:'Hooks',
+        desc:[
+            "It's a team maker web apps created using react.js",
+            "Whole site are simple and responsive design",
+            "In this app, anyone can create their cricket team instead of money",
+            "Right side component shows player summery like how much players you bought",
+            "There are some of functionalities all are implemented"
+        ],
+        tech:['html','css','react','react-router']
     },
     {
         id:'reactTab',
@@ -301,7 +370,11 @@ export const reactBasicMedium = [
         sourceCode:'https://github.com/Shakil-Babu/tab-react',
         live:'https://tab-react.netlify.app/',
         category:["React"],
-        type:'Tab'
+        type:'Tab',
+        desc:[
+            "Simple tab created using react.js"
+        ],
+        tech:['html','css','react','hooks']
     },
     {
         id:'reactAccordion',
@@ -310,7 +383,11 @@ export const reactBasicMedium = [
         sourceCode:'https://github.com/Shakil-Babu/accordian-react',
         live:'https://accordian-react-01.netlify.app/',
         category:["React (Core)"],
-        type:'Accordion'
+        type:'Accordion',
+        desc:[
+            "Simple accordion created using react.js",
+        ],
+        tech:['html','css','react','hooks']
     }
 ]
 
@@ -326,7 +403,25 @@ export const reactAdvancedProjectInfo = [
         sourceCode:'https://github.com/Shakil-Babu/meal-hut-ecommerce',
         live:'https://meal-hut.netlify.app/',
         category:["REACT", "FIREBASE", 'CONTEXT API'],
-        type:'ECOMMERCE'
+        type:'ECOMMERCE',
+        desc:[
+            "It’s a full featured responsive ecommerce website which serves meals and fruits",
+            "Modern and fresh minimalistic design, with the major categories of items",
+            "There are cart feature which opens up and displays the items selected in a summary, also has a checkout button",
+            "The cart component also allows to edit the contents of the items selected",
+            "A page with Sign-in and Sign-out components. User can sign in or sign out. Anyone cannot see order and delivery pages without login.",
+            "There are components where user can read blogs about fruits and meals",
+            "There are home, blogs, meals, login, cart, delivery and confirm components",
+        ],
+        firebase:[
+            "As of this moment I am using firebase for user authentication",
+            "User can create an account name, email and password",
+            "and also User can continue with google sign account",
+            "Next time Every user can view this site using previous logged in information"
+        ],
+        tech:[
+            "html",'css','react','context api','hooks','react-router','firebase'
+        ]
     },
     {
         id:'dailyDose',
@@ -335,7 +430,22 @@ export const reactAdvancedProjectInfo = [
         sourceCode:'https://github.com/Shakil-Babu/daily-dose-bloging-website',
         live:'https://daily-dosee.netlify.app/',
         category:["REACT", "FIREBASE", 'CONTEXT API'],
-        type:'BLOGING'
+        type:'BLOGING',
+        desc:[
+            "It’s a full responsive blogging website which provides articles about JavaScript, C, express.js and etc",
+            "A quick peek component where some of post each categories are on display",
+            "There are sign-in and sign-out components where user can sign in or sign out. Anyone cannot read an article without login",
+            "Also there are categories, related, news-letter and more components all are implemented.            ",
+        ],
+        firebase:[
+            "As of this moment I am using firebase for user authentication",
+            "User can create an account name, email and password",
+            "and also User can continue with google sign account",
+            "Next time Every user can view this site using previous logged in information"
+        ],
+        tech:[
+            "html",'css','react','context api','hooks','react-router','firebase', 'highlighter'
+        ]
     },
     {
         id:'flatuicolors',
@@ -344,7 +454,15 @@ export const reactAdvancedProjectInfo = [
         sourceCode:'https://github.com/Shakil-Babu/Palettes_flat_ui_colorr',
         live:'https://flatuicolorss.netlify.app/',
         category:["REACT", "CONTEXT API"],
-        type:'COLLOR PALATTE'
+        type:'COLLOR PALATTE',
+        desc:[
+            "It’s a responsive color palettes website where user can choose and copy color",
+            "There are more than 300 colors and 15 palettes based on country like Canada, USA, India, Bangladesh, England, Portugal and more",
+            "Also there are palettes, about and more components all are implemented."
+        ],
+        tech:[
+            'HTML','CSS','REACT.js','react-router','hooks'
+        ]
     },
     {
         id:'hotelRoyal',
@@ -353,7 +471,24 @@ export const reactAdvancedProjectInfo = [
         sourceCode:'https://github.com/Shakil-Babu/hotel-royal-with-auth',
         live:'https://hotel-royall.netlify.app/',
         category:["REACT", "FIREBASE", "CONTEXT API"],
-        type:'HOTEL BOOKING'
+        type:'HOTEL BOOKING',
+        desc:[
+            "It's a full responsive hotel booking website where user can booking hotel",
+            "Fresh and modern design",
+            "There are room components where user can choose their room and see details.",
+            "There are sign-in and sign-out components where user can sign in or sign out. Anyone can't book their room without login",
+            "In date component user can picked their date length",
+            "Also there are all components of booking process"
+        ],
+        firebase:[
+            "As of this moment I am using firebase for user authentication",
+            "User can create an account name, email and password",
+            "and also User can continue with google sign account",
+            "Next time Every user can view this site using previous logged in information"
+        ],
+        tech:[
+            'html','css','react.js','react-router','hooks','context api','firebase'
+        ]
     },
     {
         id:'programmingHero',
@@ -362,7 +497,17 @@ export const reactAdvancedProjectInfo = [
         sourceCode:'https://github.com/Shakil-Babu/programming-hero-clone',
         live:'https://web-programming-hero.netlify.app/',
         category:["REACT",'ROUTER','HOOKS'],
-        type:'ONLINE TRAINING'
+        type:'ONLINE TRAINING',
+        desc:[
+            "It's e-learning website created using react.js",
+            "Whole site are cloned like web.programming-hero.com",
+            "There are many components to manage this site like accordion, tab, slider, about and etc",
+            "It's easy to manage",
+            "Modern and responsive design"
+        ],
+        tech:[
+            'html','css','react','hooks'
+        ]
     },
     {
         id:'road-riders',
@@ -371,7 +516,24 @@ export const reactAdvancedProjectInfo = [
         sourceCode:'https://github.com/Shakil-Babu/road-riders-with-auth',
         live:'https://road-riders.netlify.app/',
         category:['REACT','CONTEXT API','FIREBASE'],
-        type:'RIDE SHARE'
+        type:'RIDE SHARE',
+        desc:[
+            "It's a ride sharing website which serves car, bus, train, and bike sharing for customers",
+            "Whole site are responsive and easy to cuztomize",
+            "There are some of ride sharing option like car, bus, and etc. Where user can easily choose option to go somewhere",
+            "There are sign-in and sign-out components where user can sign in or sign out. Anyone can't assign destination page without login",
+            "There are destination component where user can fill their destination like Dhaka to Bogura with map",
+            "Also there are blog, contact, login, and booking system page etc"
+        ],
+        firebase:[
+            "As of this moment I am using firebase for user authentication",
+            "User can create an account name, email and password",
+            "and also User can continue with google sign account",
+            "Next time Every user can view this site using previous logged in information"
+        ],
+        tech:[
+            "html",'css','react','context api','hooks','react-router','firebase'
+        ]
     },
 ]
 
@@ -387,7 +549,22 @@ export const mernProjectInfo = [
         sc2:'https://github.com/Shakil-Babu/fast-cleaner-server',
         live:'https://fast-cleanerr.web.app/',
         category:["MERN"],
-        type:'CLEANING AGENCY'
+        type:'CLEANING AGENCY',
+        desc:[
+            "It’s a responsive full stack cleaning agency website which serves some of services like carpet, home, building, office and machine cleaning",
+            "Users and Admin can sign up and log in to this website. Anyone cannot go to some pages without login",
+            "There are different dashboards for User and Admin",
+            "Users can place orders, see his order list, and give a review of a service. Admin can see all orders of the users. They can add a new service and make a new admin by providing the new admin’s email.            ",
+        ],
+        firebase:[
+            "As of this moment I am using firebase for user authentication",
+            "User can create an account name, email and password",
+            "and also User can continue with google sign account",
+            "Next time Every user can view this site using previous logged in information"
+        ],
+        tech:[
+            "html",'css','react','context api','hooks','react-router','firebase', 'Node.js',"express.js",'Mongodb'
+        ]
     }
 ]
 
@@ -464,7 +641,9 @@ export const projectForHome = [
         sourceCode:'https://github.com/Shakil-Babu/meal-hut-ecommerce',
         live:'https://meal-hut.netlify.app/',
         category:["REACT", "FIREBASE", 'CONTEXT API'],
-        type:'ECOMMERCE'
+        type:'ECOMMERCE',
+      
+    
     },
     {
         id:'dailyDose',
@@ -473,7 +652,10 @@ export const projectForHome = [
         sourceCode:'https://github.com/Shakil-Babu/daily-dose-bloging-website',
         live:'https://daily-dosee.netlify.app/',
         category:["REACT", "FIREBASE", 'CONTEXT API'],
-        type:'BLOGING'
+        type:'BLOGING',
+        desc:`
+
+        `
     },
     {
         id:'fastCleaner',
@@ -483,7 +665,10 @@ export const projectForHome = [
         sc2:'https://github.com/Shakil-Babu/fast-cleaner-server',
         live:'https://fast-cleanerr.web.app/',
         category:['MERN'],
-        type:'CLEANING AGENCY'
+        type:'CLEANING AGENCY',
+        desc:`
+
+        `
     },
     {
         id:'flatuicolors',
@@ -492,7 +677,10 @@ export const projectForHome = [
         sourceCode:'https://github.com/Shakil-Babu/Palettes_flat_ui_colorr',
         live:'https://flatuicolorss.netlify.app/',
         category:["REACT", "CONTEXT API"],
-        type:'COLLOR PALATTE'
+        type:'COLLOR PALATTE',
+        desc:`
+
+        `
     },
     {
         id:'hotelRoyal',
@@ -501,7 +689,10 @@ export const projectForHome = [
         sourceCode:'https://github.com/Shakil-Babu/hotel-royal-with-auth',
         live:'https://hotel-royall.netlify.app/',
         category:["REACT", "FIREBASE", "CONTEXT API"],
-        type:'HOTEL BOOKING'
+        type:'HOTEL BOOKING',
+        desc:`
+
+        `
     }
 ]
 

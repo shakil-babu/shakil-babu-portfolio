@@ -1,12 +1,11 @@
 import React from 'react'
 import {FaArrowRight} from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 import './SingleBlog.css';
 const SingleBlog = ({item}) => {
     return (
         <>
              
-            <Link style={{textDecoration:'none'}} to={`/blogs/${item.id}`}>
+            <a style={{textDecoration:'none'}} target='_blank' rel="noreferrer" href={item.href}>
                 <div className="single-js-post">
                     <div className="title-box">
                         <h5>{item.title}</h5>
@@ -15,7 +14,7 @@ const SingleBlog = ({item}) => {
                         <h1>{item.title}</h1>
                         <h6>{item.badge}</h6>
                         <hr/>
-                        <p>{item.p1.substr(0,110)}.</p>
+                        <p>{item.desc.substr(0,110)}.</p>
                         <div className="continue-reading">
                         <button>Continue Reading <FaArrowRight className='arrow' /></button>
                         </div>
@@ -26,7 +25,7 @@ const SingleBlog = ({item}) => {
                     </div>
                 </div> 
 
-            </Link>
+            </a>
         </>
     )
 }

@@ -24,8 +24,49 @@
 
 .details-info{
     padding: 25px;
+    width: 70%;
+    border-right: 2px solid #682de9;
+}
+.details-info h3{
+    color: #888;
+    text-transform: uppercase;
+    font-family:  'Varela Round', sans-serif;
+}
+.info-item, .firebase-option{
+    padding: 16px;
 }
 
+.details-info li{
+    padding-bottom: 10px;
+    font-family: 'Varela Round', sans-serif;
+}
+.portfolio-flex-layout{
+    display: flex;
+    justify-content: space-between;
+}
+.technology-area{
+    width: 30%;
+    padding: 20px;
+}
+
+.tech button{
+    background-color: #692de9dc;
+    border: none;
+    outline: none;
+    padding: 15px ;
+    color: #fff;
+    text-transform: uppercase;
+    margin:10px;
+    width: 120px;
+    font-size: 11px;
+}
+.technology-area h3{
+    text-transform: uppercase;
+    color: #888;
+    font-family: 'Varela Round', sans-serif;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
 .btn-dowenload{
     padding: 14px;
     border: none;
@@ -38,6 +79,7 @@
     align-items: center;
     width: 200px;
     justify-content: center;
+    margin-right: 10px;
 }
 
 .btn-dowenload .icon{
@@ -49,5 +91,29 @@
 @media  screen and (max-width:400px) {
     .btn-dowenload{
         width: 100%;
+    }
+}
+
+@media  screen and (max-width:992px) {
+    .portfolio-flex-layout{
+        flex-direction: column;
+    }
+    .details-info{
+        width: 100%;
+        border: none;
+    }
+    .technology-area{
+        width: 100%;
+    }
+}
+
+@media  screen and (max-width:576px) {
+    .tech button{
+        width: 100%;
+    }
+    .btn-dowenload{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
     }
 }

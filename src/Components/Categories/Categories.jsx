@@ -17,6 +17,9 @@ const Categories = () => {
                             categoryInfo.map((item) => <Category item={item}/>) 
                          }
                     </div>
+                    <div className="more-btn-area">
+                    <a href="https://github.com/shakil-babu/" rel="noreferrer" className='btn btn-more'>For more projecets</a>
+                    </div>
                 </div>
             </section> 
         </>
