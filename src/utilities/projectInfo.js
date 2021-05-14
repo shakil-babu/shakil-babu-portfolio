@@ -161,7 +161,14 @@ export const jsProjectInfo = [
         sourceCode:'https://github.com/Shakil-Babu/weather-app',
         live:'https://shakil-babu.github.io/weather-app/',
         category:["JavaScript", "Api"],
-        type:'API'
+        type:'API',
+        desc:[
+            "It's a weather app created using valina JavaScript. Where anyone can see weather of any places after search.",
+            "By default, It shows us weather of Dhaka, Bangladesh",
+            "If you need to know weather about different kind of country or zilla just write on search bar and click the button",
+            "If location is true, It will shows weather otherwise shows 'Location not found!'"
+        ],
+        tech:['html','css','JavaScript']
     },
     {
         id:'shopping-cart',
@@ -170,7 +177,14 @@ export const jsProjectInfo = [
         sourceCode:'https://github.com/Shakil-Babu/shopping-cart',
         live:'https://shakil-babu.github.io/shopping-cart/',
         category:["JavaScript", "DOM"],
-        type:'DOM'
+        type:'DOM',
+        desc:[
+            "This is a shopping cart app created using vanila JavaScript",
+            "There are two phones, where anyone can increse quantity of product",
+            "Then, it will shows us the products price based on quantity",
+            "At the end, can checkout"
+        ],
+        tech:['html','css','JavaScript']
     },
   
     {
@@ -180,7 +194,12 @@ export const jsProjectInfo = [
         sourceCode:'https://github.com/Shakil-Babu/digital-clock',
         live:'https://shakil-babu.github.io/digital-clock/',
         category:["JavaScript", "DOM"],
-        type:'DOM'
+        type:'DOM',
+        desc:[
+            "Simple digital clock created using vanila JavaScript",
+            "It will shows us the current time"
+        ],
+        tech:['html','css','JavaScript']
     },
     {
         id:'todo',
@@ -189,7 +208,13 @@ export const jsProjectInfo = [
         sourceCode:'https://github.com/Shakil-Babu/todoapp',
         live:'https://shakil-babu.github.io/todoapp/',
         category:["JavaScript", "DOM"],
-        type:'DOM'
+        type:'DOM',
+        desc:[
+            "Simple todo app created using vanila JavaScript. Where user can make a own todo",
+            "After finish task, user can easily delete them",
+            "Also there are some of validation"
+        ],
+        tech:['html','css','JavaScript']
     },
     {
         id:'covid-19',
@@ -198,7 +223,14 @@ export const jsProjectInfo = [
         sourceCode:'https://github.com/Shakil-Babu/covid-19_info_app',
         live:'https://shakil-babu.github.io/covid-19_info_app/',
         category:["JavaScript", "API"],
-        type:'API'
+        type:'API',
+        desc:[
+            "Covid-19 info app where anyone can know about a country",
+            "There are all countries which affected by corona",
+            "There are search option, user can easily search there and find out location",
+            "There are all of corona information based on country like newConfrimed, allConfrimed, newDeaths, allDeaths and etc"
+        ],
+        tech:['html','css','JavaScript']
     },
     {
         id:'calculator',
@@ -207,16 +239,10 @@ export const jsProjectInfo = [
         sourceCode:'https://github.com/Shakil-Babu/calculator',
         live:'https://shakil-babu.github.io/calculator/',
         category:["JavaScript", "DOM"],
-        type:'DOM'
-    },
-    {
-        id:'modal',
-        title:'Modal - Javascript DOM Project.',
-        img:'https://i.ibb.co/gtG3tbW/modal.png',
-        sourceCode:'https://github.com/Shakil-Babu/modal_with_vanila_js',
-        live:'https://shakil-babu.github.io/modal_with_vanila_js/',
-        category:["JavaScript", "DOM"],
-        type:'DOM'
+        type:'DOM',
+        desc:[
+            "Simple calculator which serves  "
+        ]
     },
     {
         id:'age-calculator',
