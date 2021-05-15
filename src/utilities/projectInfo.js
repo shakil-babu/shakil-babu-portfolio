@@ -103,7 +103,15 @@ export const bootstrapProjectInfo = [
         sourceCode:'https://github.com/Shakil-Babu/influenger-template',
         live:'https://shakil-babu.github.io/influenger-template/',
         category:["BOOTSTRAP", "RESPONSIVE"],
-        type:'BUSINESS'
+        type:'BUSINESS',
+        desc:[
+            "Influenger - modern solutions for growing your business",
+            "Full responsive created using Bootstrap class",
+            "Easy to mange and customize",
+            "Fresh and modern ui design",
+            "The whole site are tablet, mobile, laptop, Desktop and etc friendly"
+        ],
+        tech:['html','css','bootstrap']
     },
     
     {
@@ -113,7 +121,15 @@ export const bootstrapProjectInfo = [
         sourceCode:'https://github.com/Shakil-Babu/cloud-hosting-template',
         live:'https://shakil-cloud-hosting.netlify.app/',
         category:["BOOTSTRAP", "RESPONSIVE"],
-        type:'HOSTING SERVICE'
+        type:'HOSTING SERVICE',
+        desc:[
+            "Loruki - Best cloud web hosting website which provides hosting services.",
+            "Responsive and all of device friendly like mobile, laptop, tab, and dekstop",
+            "Minimal and fresh ui design",
+            "Easy to mange and customize",
+            "For more info full freely visit this site"
+        ],
+        tech:['html','css','bootstrap']
     },
     {
         id:'penguin-fashion',
@@ -122,16 +138,31 @@ export const bootstrapProjectInfo = [
         sourceCode:'https://github.com/Shakil-Babu/penguin-fashion',
         live:'https://shakil-babu.github.io/penguin-fashion/',
         category:["BOOTSTRAP", "RESPONSIVE"],
-        type:'ECOMMERCE'
+        type:'ECOMMERCE',
+        desc:[
+           "Penguin Fashion - Be the Penguins (it's an ecommerce website )",
+           "Modern and fresh design",
+           "It's a place where you can buy a women and man jacket also can get the deals of week",
+           "Fully responsive website all of device friendly",
+           "Easy to mange and customize"
+        ],
+        tech:['html','css','bootstrap']
     },
     {
         id:'panda',
-        title:'Panda - best goods for best idea.',
+        title:'Panda - best goods for best people.',
         img:'https://i.ibb.co/hW1G3RL/panda.png',
         sourceCode:'https://github.com/Shakil-Babu/ecommerce',
         live:'https://shakil-babu.github.io/ecommerce/',
         category:["BOOTSTRAP", "RESPONSIVE"],
-        type:'ECOMMERCE'
+        type:'ECOMMERCE',
+        desc:[
+            "Panda - best goods for best people (it's  an ecommerce website) where you can buy shoes, back pack, and watch",
+            "Simple and modern design",
+            "Whole site are responsive all of device friendly",
+            "Easy to mange and customize"
+        ],
+        tech:['html','css','bootstrap']
     }
 ,
     {
@@ -141,7 +172,14 @@ export const bootstrapProjectInfo = [
         sourceCode:'https://github.com/Shakil-Babu/agency-template',
         live:'https://shakil-agency-template.netlify.app/',
         category:["BOOTSTRAP", "RESPONSIVE"],
-        type:'AGENCY'
+        type:'AGENCY',
+        desc:[
+            "Marketoo - best digital agencty (i'ts an agengy website) which can help to you to grow your buissness",
+            "Simple and fresh design",
+            "Whole site responsive also mobile, tab, desktop and laptop friendly",
+            'Easy to mange and customize'
+        ],
+        tech:['html','css','bootstrap']
     }
 ]
 
@@ -155,22 +193,20 @@ export const bootstrapProjectInfo = [
 // for javascript 
 export const jsProjectInfo = [
     {
-        id:'weather',
-        title:'Weather App - with weather api.',
-        img:'https://i.ibb.co/qx2hN0w/weather.png',
-        sourceCode:'https://github.com/Shakil-Babu/weather-app',
-        live:'https://shakil-babu.github.io/weather-app/',
-        category:["JavaScript", "Api"],
-        type:'API',
+        id:'calculator',
+        title:'Calculator - Calculate your idea.',
+        img:'https://i.ibb.co/jrhGgQT/calculator.png',
+        sourceCode:'https://github.com/Shakil-Babu/calculator',
+        live:'https://shakil-babu.github.io/calculator/',
+        category:["JavaScript", "DOM"],
+        type:'DOM',
         desc:[
-            "It's a weather app created using valina JavaScript. Where anyone can see weather of any places after search.",
-            "By default, It shows us weather of Dhaka, Bangladesh",
-            "If you need to know weather about different kind of country or zilla just write on search bar and click the button",
-            "If location is true, It will shows weather otherwise shows 'Location not found!'"
+            "The Calculator is a simple tool to make simple math calculations. It works like most pocket calculators: press the buttons, the numbers appear on the display, press '=' to display the result, press 'c' to delete etc",
+            "The simple calculator supports the following operations: Addition , Subtraction , Multiplication , Division ",
+            "It can be used to calculate square root too"
         ],
         tech:['html','css','JavaScript']
-    },
-    {
+    },{
         id:'shopping-cart',
         title:'Shopping-cart | JavaScript DOM Project.',
         img:'https://i.ibb.co/TWWkCM9/shopping-cart.png',
@@ -180,13 +216,134 @@ export const jsProjectInfo = [
         type:'DOM',
         desc:[
             "This is a shopping cart app created using vanila JavaScript",
-            "There are two phones, where anyone can increse quantity of product",
-            "Then, it will shows us the products price based on quantity",
-            "At the end, can checkout"
+            "Adds product(s) to cart when clicking on 'Add to Cart' button",
+            "'Add to Cart' button changes to 'In Cart' when clicked",
+            "Image, product name, price, quantity, increase/decrease buttons, and a remove item button appears in the cart",
+            "Decreasing item quantity below 1 will remove product from the cart",
+            "Displays total price and is adjusted when increasing/decreasing quantity in cart",
+            "At the end, can checkout",
+            "Complete shopping cart functionality has been implemented here"
+        ],
+        tech:['html','css','JavaScript']
+    },{
+        id:'weather',
+        title:'Weather App - with weather api.',
+        img:'https://i.ibb.co/qx2hN0w/weather.png',
+        sourceCode:'https://github.com/Shakil-Babu/weather-app',
+        live:'https://shakil-babu.github.io/weather-app/',
+        category:["JavaScript", "Api"],
+        type:'API',
+        desc:[
+            "It's a weather app created using valina JavaScript. Where anyone can see weather of any places after search",
+            "By default, It shows us weather of Dhaka, Bangladesh",
+            "If you need to know weather about different kind of country or zilla just write on search bar and click the button",
+            "If location is true, It will shows weather otherwise shows 'Location not found!'"
         ],
         tech:['html','css','JavaScript']
     },
-  
+    {
+        id:'cooking-master',
+        title:'Cooking Master - JavaScript Api Project.',
+        img:'https://i.ibb.co/T0Fnq5W/cooking-master.png',
+        sourceCode:'https://github.com/Shakil-Babu/cooking-master',
+        live:'https://shakil-babu.github.io/cooking-master/',
+        category:["JavaScript", "API"],
+        type:'API',
+        desc:[
+            "It's a recipe app called Cooking master which steer you through meal preparation. It offers the functions to make cooking easy and enjoyable even for a newbie",
+            "In home page, there are search bar which are help you to find out a recipe",
+            "After search, you can see more recipe based on your search keyword otherwise, it will shows 'Sorry did not find any kind of meal'",
+            "Actually, it will help the popular among food lovers who love to bake their food on the go"
+        ],
+        tech:['html','css','javascript']
+    },
+    {
+        id:'fancy-slider',
+        title:'Fancy Slider - Javascript DOM & API Project.',
+        img:'https://i.ibb.co/pnx3RBj/fancy-slider.png',
+        sourceCode:'https://github.com/Shakil-Babu/fixed-fancy-slider',
+        live:'https://shakil-babu.github.io/fixed-fancy-slider/',
+        category:["JavaScript", "DOM & API"],
+        type:'DOM & API',
+        desc:[
+            "It's a responsive slider maker app called fancy slider create using vanila JavaScript and api",
+            "In home page, there are a search bar which can help you to find out photos based on your keyword",
+            "By default, search bar bear a keyword name of nature",
+            "After search, you can select more than one photos to create a slider. Also there are option to give a duration how often slider change",
+            "By default, image can change automatically frequently after 1 second"
+        ],
+        tech:['html','css','javascript']
+    },
+    {
+        id:'age-calculator',
+        title:'Age Calculator - JavaScript DOM Project.',
+        img:'https://i.ibb.co/hmDJcgt/age-calculator.png',
+        sourceCode:'https://github.com/Shakil-Babu/Age_Calculator',
+        live:'https://shakil-babu.github.io/Age_Calculator/',
+        category:["JavaScript", "DOM"],
+        type:'DOM',
+        desc:[
+            "Age Calculator is very easy application to calculate your precise age in year, month and day between two dates",
+            "At first, it takes user name as a input",
+            "Then the app shows age calculator UI where user can calculate their age",
+            "After calculate user's age, it will shows a greeting with the age of user",
+            " Now, It is easy to find your age ",
+            "Clean Design: Beautifully designed with a simple, clean and minimal design manner"
+        ],
+        tech:['html', 'css', 'javascript']
+    },
+    
+    {
+        id:'pin-matcher',
+        title:'Pin Matcher - JavaScript DOM Project.',
+        img:'https://i.ibb.co/VDhHpyH/pin-matcher.png',
+        sourceCode:'https://github.com/Shakil-Babu/pin-matcher',
+        live:'https://shakil-babu.github.io/pin-matcher/',
+        category:["JavaScript", "DOM"],
+        type:'DOM',
+        desc:[
+            "Modern and minimal design JavaScript project called pin matcher which can check pin, is it matched pin or not",
+            "First, you have to generate random 4 digit pin with the help of 'generate pin' button",
+            "Then right side, a user can write 4 digit pin to match with left side generated pin.",
+            "If, pin matched it will shows 'Pin Matched... Secret door is opening for you' otherwise shows 'Pin Didn't Match, Please try again'",
+            "Also, you have 3 times to try again. If you are already failed 3 times again you can't try to matched the pin.",
+            "There are more than 3 validation."
+        ],
+        tech:['html','css','javascript']
+    },
+    {
+        id:'bus-ticket',
+        title:'Mega Bus - Bus ticket management (DOM Project)',
+        img:'https://i.ibb.co/3krcDHN/bus-tickit.png',
+        sourceCode:'https://github.com/Shakil-Babu/mega-bus',
+        live:'https://shakil-babu.github.io/mega-bus/',
+        category:["JavaScript", "DOM"],
+        type:'DOM',
+        desc:[
+            "This is a bus booking management app created using vanila JavaScript which serves to book a bus for travel",
+            "There are two option to fill up your destination like Dhaka to chittagone and also date time (departure and return)",
+            "Sit range, economy rate, price, quantity, increase/decrease buttons, and process completed components in the app",
+            "Displays total price and is adjusted when increasing/decreasing quantity in economy and sit range",
+            "At the end, user can book a bus. after finish the booking process it will shows a message with a word (Book completed)",
+            "Complete bus booking process functionality has been implemented here"
+        ],
+        tech:['html','css','javascript']
+    },
+    {
+        id:'github-users',
+        title:'Search Github Users - Api Project.',
+        img:'https://i.ibb.co/VYhFCBY/github-users.png',
+        sourceCode:'https://github.com/Shakil-Babu/search-github-users',
+        live:'https://shakil-babu.github.io/search-github-users/',
+        category:["JavaScript", "API"],
+        type:'API',
+        desc:[
+            "It's a responsive github user finder app created using JavaScript which can search github username and give us details about the user",
+            "It will shows about a user information like user profile info, repository number, followers, following and user friends list",
+            "Also you can follow a user with the help of follow button"
+        ],
+        tech:['html','css','javascript']
+    },
     {
         id:'digital-clock',
         title:'Digital Clock - JavaScript DOM Project.',
@@ -233,89 +390,36 @@ export const jsProjectInfo = [
         tech:['html','css','JavaScript']
     },
     {
-        id:'calculator',
-        title:'Calculator - Calculate your idea.',
-        img:'https://i.ibb.co/jrhGgQT/calculator.png',
-        sourceCode:'https://github.com/Shakil-Babu/calculator',
-        live:'https://shakil-babu.github.io/calculator/',
-        category:["JavaScript", "DOM"],
-        type:'DOM',
-        desc:[
-            "Simple calculator which serves  "
-        ]
-    },
-    {
-        id:'age-calculator',
-        title:'Age Calculator - JavaScript DOM Project.',
-        img:'https://i.ibb.co/hmDJcgt/age-calculator.png',
-        sourceCode:'https://github.com/Shakil-Babu/Age_Calculator',
-        live:'https://shakil-babu.github.io/Age_Calculator/',
-        category:["JavaScript", "DOM"],
-        type:'DOM'
-    },
-    {
         id:'keep',
         title:'Keep Project - JavaScript DOM Project.',
         img:'https://i.ibb.co/Jym5KdT/keep.png',
         sourceCode:'https://github.com/Shakil-Babu/keepProjectWithJS',
         live:'https://shakil-babu.github.io/keepProjectWithJS/',
         category:["JavaScript", "DOM"],
-        type:'DOM'
+        type:'DOM',
+        desc:[
+            "Simple and tiny similar to google keep project. It allows users to record plain-text notes and organize",
+            "Also, you can delete your notes after finished",
+            "There are some of core functionalities like google keep"  
+          ],
+        tech:[
+            'html', 'css','javascript'
+        ]
     },
-    {
-        id:'github-users',
-        title:'Search Github Users - Api Project.',
-        img:'https://i.ibb.co/VYhFCBY/github-users.png',
-        sourceCode:'https://github.com/Shakil-Babu/search-github-users',
-        live:'https://shakil-babu.github.io/search-github-users/',
-        category:["JavaScript", "API"],
-        type:'API'
-    },
-    {
-        id:'fancy-slider',
-        title:'Fancy Slider - Javascript DOM & API Project.',
-        img:'https://i.ibb.co/pnx3RBj/fancy-slider.png',
-        sourceCode:'https://github.com/Shakil-Babu/fixed-fancy-slider',
-        live:'https://shakil-babu.github.io/fixed-fancy-slider/',
-        category:["JavaScript", "DOM & API"],
-        type:'DOM & API'
-    },
-    {
-        id:'cooking-master',
-        title:'Cooking Master - JavaScript Api Project.',
-        img:'https://i.ibb.co/T0Fnq5W/cooking-master.png',
-        sourceCode:'https://github.com/Shakil-Babu/cooking-master',
-        live:'https://shakil-babu.github.io/cooking-master/',
-        category:["JavaScript", "API"],
-        type:'API'
-    },
-    {
-        id:'pin-matcher',
-        title:'Pin Matcher - JavaScript DOM Project.',
-        img:'https://i.ibb.co/VDhHpyH/pin-matcher.png',
-        sourceCode:'https://github.com/Shakil-Babu/pin-matcher',
-        live:'https://shakil-babu.github.io/pin-matcher/',
-        category:["JavaScript", "DOM"],
-        type:'DOM'
-    },
-    {
-        id:'bus-ticket',
-        title:'Mega Bus - Bus ticket management (DOM Project)',
-        img:'https://i.ibb.co/3krcDHN/bus-tickit.png',
-        sourceCode:'https://github.com/Shakil-Babu/mega-bus',
-        live:'https://shakil-babu.github.io/mega-bus/',
-        category:["JavaScript", "DOM"],
-        type:'DOM'
-    },
-    {
-        id:'stopwatch',
-        title:'Stop Watch - play with DOM',
-        img:'https://i.ibb.co/wSmKCfG/stopwatch.png',
-        sourceCode:'https://github.com/Shakil-Babu/stopwatch_app',
-        live:'https://shakil-babu.github.io/stopwatch_app/',
-        category:["JavaScript", "DOM"],
-        type:'DOM'
-    }
+    
+    // {
+    //     id:'stopwatch',
+    //     title:'Stop Watch - play with DOM',
+    //     img:'https://i.ibb.co/wSmKCfG/stopwatch.png',
+    //     sourceCode:'https://github.com/Shakil-Babu/stopwatch_app',
+    //     live:'https://shakil-babu.github.io/stopwatch_app/',
+    //     category:["JavaScript", "DOM"],
+    //     type:'DOM',
+    //     desc:[
+    //         ""
+    //     ],
+    //     tech:['html','css','javascript']
+    // }
 ]
 
 

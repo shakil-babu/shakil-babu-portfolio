@@ -2,7 +2,7 @@ import React from 'react'
 import './Header.css';
 import personal from '../../utilities/images/sh.png';
 import Navbar from '../Navbar/Navbar';
-import resume from '../../utilities/images/resume.pdf'
+import resume from '../../utilities/images/shakil_resume.pdf'
 import { BsDownload} from 'react-icons/bs';
 import ParticlesBg from "particles-bg";
 import { Link } from 'react-router-dom';
@@ -52,7 +52,7 @@ const Header = () => {
                             <p>I am a JavaScript developer with industry experience building websites and web applications. I specialize in JavaScript and have professional experience working with React.js, Node.js, Express.js, and mongoDB. I always focus on learning new technology. </p>
                             <div className="btn-flex">
                                 
-                            <a href={resume} download="resume" className='width'>
+                            <a href={resume} download="shakil_resume" className='width'>
                             <button className="btn"> <BsDownload/> Dowenload Resume</button>
                             </a>
                                <Link className='width' to='/contact' style={{textDecoration:"none"}} > <button className="btn">Hire me</button></Link>
